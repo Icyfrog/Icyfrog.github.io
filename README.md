@@ -7,13 +7,15 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+这个页面可以用markdown语法去写，插入图片，做图片跳转啊（应该可以）等等
+不过用英文看起来会更舒服一点
 
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# Header 1   标题1
+## Header 2   标题2
+### Header 3   标题3
 
 - Bulleted
 - List
