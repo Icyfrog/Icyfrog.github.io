@@ -10,6 +10,24 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 这个页面可以用markdown语法去写，插入图片，做图片跳转啊（应该可以）等等
 不过用英文看起来会更舒服一点
 
+
+```html
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/networkgraph.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+<figure class="highcharts-figure">
+  <div id="container"></div>
+  <p class="highcharts-description">
+    This force directed graph shows an example of a network graph, where
+    the nodes represent languages and the language families they belong to.
+    The nodes can be dragged around and will be repositioned dynamically.
+    Network graphs are typically used to show relations in data. In this
+    case, we are showing a hierarchical structure.
+  </p>
+</figure>
+
+```
 ```javascript
 // Add the nodes option through an event call. We want to start with the parent
 // item and apply separate colors to each child element, then the same color to
